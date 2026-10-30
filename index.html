@@ -1,11 +1,5 @@
-
 <!DOCTYPE html>
 <html lang="en">
-    <nav>
-    <a href="index.html">Home</a> |
-    <a href="about.html">About Us</a> |
-    <a href="blog.html">Blog</a>
-</nav>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,11 +30,16 @@
             text-align: center;
         }
 
-        header a {
+        nav a {
             color: white;
             text-decoration: none;
             font-size: 16px;
             font-weight: bold;
+            margin: 0 12px;
+        }
+
+        nav a:hover {
+            color: #b9d9ef;
         }
 
         main {
@@ -50,22 +49,13 @@
             background-color: #ffffff;
             border-radius: 10px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.06);
-            text-align: center;
         }
 
         h1 {
             font-size: 36px;
-            margin-bottom: 25px;
+            margin-bottom: 30px;
             color: #17324d;
-        }
-
-        h1 a {
-            color: #17324d;
-            text-decoration: none;
-        }
-
-        h1 a:hover {
-            color: #2876a8;
+            text-align: center;
         }
 
         p {
@@ -104,6 +94,11 @@
             p {
                 font-size: 16px;
             }
+
+            nav a {
+                font-size: 14px;
+                margin: 0 7px;
+            }
         }
     </style>
 </head>
@@ -111,16 +106,16 @@
 <body>
 
     <header>
-        <a href="index.html">Home</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="blog.html">Blog</a>
+        </nav>
     </header>
 
     <main>
 
-        <h1>
-            <a href="https://christopherhanksvirginia.framer.website/" target="_blank" rel="noopener noreferrer">
-                Christopher Hanks Virginia
-            </a>
-        </h1>
+        <h1>Christopher Hanks Virginia</h1>
 
         <p>
             <a href="https://christopherhanksvirginia.website3.me/" target="_blank" rel="noopener noreferrer">
